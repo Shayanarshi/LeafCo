@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --color-forest: #1b3a2b;
+  --color-sage: #7c9473;
+  --color-cream: #f5f1e8;
+  --color-mustard: #d8a34a;
+  --color-ink: #22221d;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+}
+
+/* underline that grows from the left on hover — used on nav links */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  width: 0;
+  background-color: var(--color-mustard);
+  transition: width 0.2s ease;
+}
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}

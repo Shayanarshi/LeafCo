@@ -1,0 +1,58 @@
+const products = [
+  {
+    id: 1,
+    name: 'Monstera Deliciosa',
+    price: 899,
+    image: '/images/plants/Monstera_deliciosa_35zz.jpg',
+    color: '#1B3A2B',
+    tagline: 'Bold, split leaves that fill a room',
+    description: 'A statement plant with large, glossy, split leaves. Thrives in bright, indirect light and makes a strong visual anchor in any living space.',
+  },
+  {
+    id: 2,
+    name: 'Snake Plant',
+    price: 499,
+    image: '/images/plants/Snake_plant_(Sansevieria_trifasciata).jpg',  
+    color: '#3F6B4F',
+    tagline: 'Nearly impossible to kill',
+    description: 'Upright, sculptural leaves that tolerate low light and irregular watering. A great first plant for beginners.',
+  },
+  {
+    id: 3,
+    name: 'Fiddle Leaf Fig',
+    price: 1299,
+    image: '/images/plants/Ficus_lyrata_12zz.jpg',
+    color: '#2B4A34',
+    tagline: 'The one everyone wants for their corner',
+    description: 'Large violin-shaped leaves on a tall, tree-like form. Needs consistent bright light and a stable spot — avoid moving it around.',
+  },
+  {
+    id: 4,
+    name: 'Golden Pothos',
+    price: 349,
+    image: '/images/plants/Epipremnum_aureum_(Golden_Pothos).jpg',  
+    color: '#7C9473',
+    tagline: 'Trailing vines, endlessly forgiving',
+    description: 'Fast-growing trailing vine with heart-shaped, variegated leaves. Handles low light and irregular care with ease.',
+  },
+  {
+    id: 5,
+    name: 'ZZ Plant',
+    price: 699,
+    image: '/images/plants/ZZ_Plant_(Zamioculcas_zamiifolia).jpg',  
+    color: '#25402C',
+    tagline: 'Glossy leaves, weeks between waterings',
+    description: 'Waxy, deep-green leaflets on upright stems. Extremely drought-tolerant — ideal for busy schedules or low-light corners.',
+  },
+  {
+    id: 6,
+    name: 'Peace Lily',
+    price: 599,
+    image: '/images/plants/Peace_Lily_(Spathiphyllum_sp).jpg',  
+    color: '#4A6B4E',
+    tagline: 'Dark leaves, occasional white blooms',
+    description: 'Glossy dark-green foliage with occasional white flowers. Prefers shade and tells you when it is thirsty by drooping slightly.',
+  },
+]
+
+export default products
